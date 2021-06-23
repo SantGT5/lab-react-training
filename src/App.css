@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+ 
+
+.border{
+  text-align: left;
+  border: solid 1px black;
+  margin: 1em;
+}
+
+
+.picture{
+  height: 10em;
+  width: 10em;
+  padding: 5px;
+}
+
+.idInfo{
+  list-style: none;
+}
+
+.text{
+  text-align: center;
+}
+
+
+.cardBorder{
+  display: inline-block;
+  border: solid 1px black;
+  -webkit-border-radius: 5px; 
+  margin: 2em;
+  height: 10em;
+  width: 20em;
+}
+
+
+.imgCard{
+  display: flex;
+  margin-left: 15.5em;
+  margin-top: 1em;
+  height: 1.3em;
+  width:auto;
+}
+
+.cardNumber{
+display: flex;
+margin-top: 0.5rem;
+margin-left: 1rem;
+font-family: 'Roboto', sans-serif;
+font-size: 2em;
+}
+
+
+.dateCard{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cardBank{
+  margin-left: 1.5rem;
+}
+
+.cardOwner{
+  display: flex;
+}
