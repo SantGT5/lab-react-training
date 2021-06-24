@@ -8,6 +8,10 @@ import BoxColor from './BoxColor';
 import CreditCard from './CreditCard';
 import visa from './img/visa.png';
 import master from './img/master-card.svg';
+import LikeButton from './LikeButton';
+import ClickablePicture from './ClickablePicture';
+import Dice from './Dice'
+import Carousel from './Carousel';
 import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css';
 
@@ -119,8 +123,34 @@ function App() {
               />
             )
           })}
-        </div>
-        
+    </div>
+    
+        <LikeButton /> <LikeButton />
+
+        <div>
+
+
+        <ClickablePicture
+        img='./persons/maxence.png'
+        imgClicked='./persons/maxence-glasses.png'
+      />
+    </div>
+
+
+      <div>
+        <Dice />
+      </div>
+    
+      <Carousel
+      
+  imgs={[
+    'https://randomuser.me/api/portraits/women/1.jpg',
+    'https://randomuser.me/api/portraits/men/1.jpg',
+    'https://randomuser.me/api/portraits/women/2.jpg',
+    'https://randomuser.me/api/portraits/men/2.jpg'
+        ]}
+      />
+
 
     </div>
   );

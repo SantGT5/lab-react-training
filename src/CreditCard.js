@@ -5,7 +5,7 @@ function CreditCard(props){
 
         <div type={props.type} className="cardBorder" style= {{backgroundColor: `${props.bgColor}`}}>
             <img className ="imgCard" src={props.img}></img>
-            <span className="cardNumber">{props.number}</span>
+            <span className="cardNumber">••• ••• ••• ••• {props.number.substr(-4)}</span>
             <div className="dateCard">
             <span > Expires {props.expirationMonth}/{props.expirationYear}</span>
             <span className="cardBank">{props.bank}</span>
