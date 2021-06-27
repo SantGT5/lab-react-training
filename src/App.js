@@ -12,6 +12,10 @@ import LikeButton from './LikeButton';
 import ClickablePicture from './ClickablePicture';
 import Dice from './Dice'
 import Carousel from './Carousel';
+import Rating from './Rating';
+import NumbersTable from './NumbersTable';
+import FaceBook from './FaceBook';
+import SignupPage from './SignupPage';
 import "bootstrap/dist/css/bootstrap.min.css"
 import './App.css';
 
@@ -124,6 +128,21 @@ function App() {
             )
           })}
     </div>
+
+
+    
+      <Rating>0</Rating>
+      <Rating>1.49</Rating>
+      <Rating>1.5</Rating>
+      <Rating>3</Rating>
+      <Rating>4</Rating>
+      <Rating>5</Rating>
+
+
+
+
+
+
     
         <LikeButton /> <LikeButton />
 
@@ -150,6 +169,10 @@ function App() {
     'https://randomuser.me/api/portraits/men/2.jpg'
         ]}
       />
+
+<NumbersTable limit={12} />
+<FaceBook />
+<SignupPage />
 
 
     </div>
